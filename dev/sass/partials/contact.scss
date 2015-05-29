@@ -1,0 +1,30 @@
+#contact {
+  h2 {
+    margin-bottom: 4rem;
+  }
+}
+
+.contact-info {
+  margin-bottom: 2rem;
+}
+.map-wrapper {
+  position: relative;
+}
+#map-canvas {
+  height: 475px;
+}
+
+.map-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 270px;
+  background: linear-gradient(#f2f2f2, transparent);
+  z-index: 1000;
+}
+
+.contact-info__label {
+  font-size: .75rem;
+  font-weight: 500;
+}

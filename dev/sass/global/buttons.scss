@@ -1,0 +1,17 @@
+.button {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  height: 64px;
+  font: 700 .75rem/64px $siteFont;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  transition: .2s ease-in-out;
+
+  &:hover {
+    color: lighten($gray, 40);
+    border-color: lighten($gray, 40);
+  }
+}

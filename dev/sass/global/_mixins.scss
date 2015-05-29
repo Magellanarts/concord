@@ -1,0 +1,105 @@
+//Global Styles
+.text-centered {
+  text-align: center;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 15px 5%;
+}
+
+.alignleft {
+  float: left;
+  margin: 0 5% 15px 0;
+}
+
+
+%hide-text {
+  display: none;
+}
+
+strong {
+  font-weight: 400;
+  color: $green;
+}
+
+.hidden {
+  @extend %hide-text;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+%verticalcenter {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+
+%totalcenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.check-list {
+  li {
+    padding-left: 50px;
+    margin-bottom: 1.9rem;
+    position: relative;
+
+    &:before {
+      font-family:"icons";
+      display:inline-block;
+      vertical-align:middle;
+      line-height:1;
+      font-weight:normal;
+      font-style:normal;
+      speak:none;
+      text-decoration:inherit;
+      text-transform:none;
+      text-rendering:optimizeLegibility;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      content:"\f101";
+      color: $greenlight;
+      font-size: 11px;
+      position: absolute;
+      top:9px;
+      left: 3px;
+    }
+
+
+  }
+
+  &.small {
+
+    li {
+      padding-left: 25px;
+      font-size: .6rem;
+      margin-bottom: .7rem;
+      line-height: 1.1rem;
+
+      &:before {
+        top: 7px;
+      }
+    }
+
+  }
+}
+
+
+.section-heading {
+  background: $green;
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  color: $white;
+  font: 500 .75rem/50px $siteFont;
+  margin: 0 auto 3.6rem;
+  padding: 0 2rem;
+}

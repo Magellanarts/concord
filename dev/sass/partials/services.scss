@@ -1,0 +1,20 @@
+.services {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+
+
+
+
+  @media #{$medium} {
+    display: block;
+
+    .grid {
+      padding-right: 450px;
+    }
+
+    .grid-3 {
+      width: 100%;
+    }
+  }
+}

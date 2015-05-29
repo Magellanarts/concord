@@ -1,0 +1,24 @@
+.callout {
+  background: #f1f1f1;
+  padding: 50px 10.3%;
+
+  .grid {
+    padding-bottom: 10px;
+  }
+}
+
+.callout-featured-text {
+  width: 31%;
+}
+
+.callout-details {
+  width: 60%;
+  padding-top: 8px;
+  margin-left: 8%;
+
+  p, ul {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 19px;
+  }
+}

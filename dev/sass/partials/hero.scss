@@ -1,0 +1,8 @@
+.logo {
+  display: inline-block;
+  margin-bottom: 2.7rem;
+
+  @media #{$medium} {
+    width: 375px;
+  }
+}

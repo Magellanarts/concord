@@ -1,0 +1,76 @@
+.grid {
+  font-size: 0;
+}
+
+.grid-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  @media #{$medium} {
+    margin-left: 5%;
+  }
+}
+
+.grid4 {
+  @media #{$medium} {
+
+    /*  GRID OF FOUR  */
+    .grid-4 {
+      width: 100%;
+    }
+    .grid-3 {
+      width: 63.5%;
+    }
+    .grid-2 {
+      width: 49.05%;
+    }
+    .grid-1{
+      width: 25.5%;
+    }
+  }
+}
+
+.grid3 {
+  @media #{$medium} {
+    .grid-3 {
+      width: 100%;
+    }
+    .grid-2 {
+      width: 66.03%;
+    }
+    .grid-1 {
+      width: 32.06%;
+    }
+  }
+
+}
+
+.grid2 {
+  .grid-item {
+    box-sizing: border-box;
+
+    @media #{$medium} {
+      margin-left: 9%;
+      width: 41%;
+    }
+  }
+
+  &.no-spacing {
+    .grid-item {
+      @media #{$medium} {
+        width: 50%;
+        margin-left: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

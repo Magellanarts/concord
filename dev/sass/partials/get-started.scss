@@ -1,0 +1,19 @@
+.get-started {
+  background: url(i/people.svg) $green no-repeat;
+  background-size: 550px;
+  background-position: -50px -60px;
+  color: $white;
+  padding: 2rem 2rem .495rem;
+
+  .get-started__list {
+    @media #{$medium} {
+      width: 50%;
+      padding-left: 10%;
+    }
+  }
+}
+
+.get-started__heading {
+  margin-bottom: 2rem;
+}
+

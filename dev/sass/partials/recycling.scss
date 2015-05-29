@@ -1,0 +1,33 @@
+.recycling {
+  background: $green;
+  color: $white ;
+  order: 2;
+  box-sizing: border-box;
+  padding: 2rem;
+  font-size: .75rem;
+  z-index: 2;
+
+  h2 {
+    color: $white;
+  }
+
+  h4 {
+    margin-bottom: .1rem;
+    font-weight: 400;
+  }
+
+  p {
+    margin-bottom: 1.2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media #{$medium} {
+    position: absolute;
+    right: 0;
+    top: 360px;
+    width: 470px;
+  }
+}

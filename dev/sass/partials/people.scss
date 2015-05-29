@@ -1,0 +1,19 @@
+.people-list {
+  li {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+.person__name {
+  color: $red;
+  font-weight: 900;
+}
+
+.person__position {
+  font-weight: 500;
+}
+
+.person__bio-link {
+  font-weight: 300;
+}

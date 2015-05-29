@@ -1,0 +1,22 @@
+.social-list {
+  li {
+    display: inline-block;
+
+
+    a {
+      opacity: 1;
+      transition: .3s ease-in-out;
+      &:hover {
+        opacity: .7;
+      }
+    }
+
+    img {
+      width: 40px;
+    }
+  }
+
+  @media #{$medium} {
+    margin-top: 25px;
+  };
+}

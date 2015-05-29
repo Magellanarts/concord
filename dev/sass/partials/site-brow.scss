@@ -1,0 +1,44 @@
+.site-brow {
+  margin-bottom: 5rem;
+
+  .site-container {
+    background: $green;
+    color: #fff;
+    font-size: .585rem;
+
+    padding: 12px 2.5%;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: .9rem;
+
+    @media screen and (min-width: 600px) {
+      text-align: left;
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+    }
+  }
+}
+
+.site-brow__details {
+  span {
+    &:first-child {
+      border-right: 1px solid #fff;
+      padding-right: 8px;
+      margin-right: 4px;
+    }
+  }
+
+  .icon_map,
+  .icon_phone {
+    position: relative;
+    top: 2px;
+    padding-right: 6px;
+  }
+
+  .icon_phone {
+    padding-right: 0;
+    padding-left: 6px;
+    top: 1px;
+  }
+}

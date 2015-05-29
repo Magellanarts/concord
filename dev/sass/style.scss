@@ -1,0 +1,30 @@
+/*
+Theme Name: Concord Plastics
+*/
+
+@import "compass/reset";
+@import "compass/css3";
+
+//Global
+@import "../fonts/icons";
+@import "global/vars";
+@import "global/reset";
+@import "global/structure";
+@import "global/mixins";
+@import "global/headings";
+@import "global/buttons";
+@import "global/grid";
+
+//Partials
+@import "partials/navigation";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/contact";
+@import "partials/hero";
+@import "partials/site-brow";
+@import "partials/gravity";
+@import "partials/cta";
+@import "partials/get-started";
+@import "partials/testimonials";
+@import "partials/recycling";
+@import "partials/services";

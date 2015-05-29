@@ -1,0 +1,30 @@
+.navigation--primary {
+  font-size: 0;
+  margin-bottom: 4.2rem;
+
+  li {
+    display: inline-block;
+    font-size: .59rem;
+    padding: 0 15px 14px;
+    border-bottom:  2.5px solid #eef2f2;
+    font-weight: 400;
+    line-height: 1;
+    cursor: pointer;
+
+    a {
+      display: block;
+      color: $gray;
+    }
+
+    &:hover {
+      border-bottom-color: #00a651;
+
+      a {
+        color: #00a651;
+      }
+    }
+
+
+
+  }
+}

@@ -1,0 +1,39 @@
+html {
+  font-size: 18px;
+  font-weight: 300;
+  color: $gray;
+  line-height: 1.35;
+
+  @media #{$medium} {
+    font-size: 24px;
+  }
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  font-family: $siteFont;
+  background: #f2f2f2;
+}
+
+a {
+  color: $greenlight;
+  transition: .2s linear;
+
+  &:hover {
+    color: $green;
+  }
+}
+
+
+.site-container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1000px;
+}
+
+
+.section {
+  padding-top: 4.3rem;
+  padding-bottom: 2rem;
+}
